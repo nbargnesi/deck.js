@@ -18,7 +18,7 @@
   <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
 
   <!-- Style theme. More available in /themes/style/ or create your own. -->
-  <link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">
+  <link rel="stylesheet" media="screen" href="themes/style/python.css">
 
   <!-- Transition theme. More available in /themes/transition/ or create your own. -->
   <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
@@ -35,11 +35,31 @@
     <!-- Begin slides. Just make elements with a class of slide. -->
 
     <section class="slide">
-      <h1>Slide</h1>
+      <h1>Slide h1</h1>
+        <h2>This is a h2</h2>
+        <h3>All the Flow You'd Expect</h3>
+        Python knows the usual control flow statements that other
+        languages speak if, for, while and range -- with some
+        of its own twists, of course.
+        <a href="http://docs.python.org/3.3/tutorial/controlflow.html">More control flow tools</a>
+      <pre class="brush: js">
+      var function(x) {};
+      </pre>
+      <pre>
+      Normal pre text.
+      </pre>
+      Normal text.
+        <code>
+        This is some code.</code>
     </section>
 
     <section class="slide">
-      <h1>Content</h1>
+      <h3>All the Flow You'd Expect</h3>
+        Python knows the usual control flow statements that other
+        languages speak &emdash; <code>if</code>, <code>for</code>,
+        <code>while</code> and <code>range</code> &emdash; with some
+        of its own twists, of course.
+        <a href="http://docs.python.org/3.3/tutorial/controlflow.html">More control flow tools</a>
     </section>
 
     <section class="slide">
@@ -84,6 +104,8 @@
 <script src="extensions/status/deck.status.js"></script>
 <script src="extensions/navigation/deck.navigation.js"></script>
 <script src="extensions/scale/deck.scale.js"></script>
+<script src="extensions/highlighter/deck.syntaxhighlighter.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all()</script>
 
 <!-- Initialize the deck. You can put this in an external file if desired. -->
 <script>
